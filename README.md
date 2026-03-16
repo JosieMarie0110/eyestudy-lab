@@ -4,7 +4,7 @@ Actively under development
 
 eyeStudy Labs is a cybersecurity study workspace built to help explore **asset visibility, integration context, exposure analysis, and security architecture mapping** across different environments.
 
-The app is designed for **scenario-based learning**, allowing users to study how different security integrations contribute context in environments such as healthcare, OT/IoT, education, and corporate office networks.
+Its designed for **scenario-based learning**, allowing users to study how different security integrations contribute context in environments such as healthcare, OT/IoT, education, and corporate office networks.
 
 ---
 
@@ -98,21 +98,6 @@ Some of the vendors represented in the app include:
 - Anomali
 - Recorded Future
 - VirusTotal
-
----
-
-## Why This Project Matters
-
-Security tools rarely operate in isolation.
-
-A major part of learning modern cybersecurity is understanding:
-
-- how tools complement each other
-- how telemetry is enriched by integrations
-- how context changes triage decisions
-- how technical findings connect to security and business outcomes
-
-This project was built to help study those relationships in a more visual and practical way.
 
 ---
 
