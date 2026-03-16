@@ -1,3 +1,6 @@
+### Project Status
+Actively under development
+
 # eyeStudy Labs
 
 eyeStudy Labs is a cybersecurity study workspace designed to help explore the concepts behind **asset visibility, device exposure, and security architecture across enterprise environments.**
