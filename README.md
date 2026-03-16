@@ -1,228 +1,201 @@
 ### Project Status
 Actively under development
-
 # eyeStudy Labs
 
-eyeStudy Labs is a cybersecurity study workspace designed to help explore the concepts behind **asset visibility, device exposure, and security architecture across enterprise environments.**
+eyeStudy Labs is a cybersecurity study workspace built to help explore **asset visibility, integration context, exposure analysis, and security architecture mapping** across different environments.
 
-The project focuses on understanding how organizations identify, monitor, and manage devices across modern infrastructure including corporate endpoints, IoT devices, operational technology, and unmanaged assets.
-
-The goal is to better understand how **device visibility and exposure management platforms help security teams reduce risk across complex environments.**
+The app is designed for **scenario-based learning**, allowing users to study how different security integrations contribute context in environments such as healthcare, OT/IoT, education, and corporate office networks.
 
 ---
 
-# Purpose
+## Overview
 
-Modern organizations struggle with knowing **what devices exist on their network and whether those devices are secure**.
+Modern security teams rely on multiple tools working together to understand:
 
-Unknown, unmanaged, or poorly classified assets create significant security risk because they may:
+- what devices exist in the environment
+- which assets are unmanaged or risky
+- what context different integrations provide
+- how that context supports investigation, triage, and response
+- how technical findings map to operational and business outcomes
 
-- operate without security controls
-- run outdated software
-- bypass traditional endpoint protections
-- introduce shadow IT into the environment
-
-eyeStudy Labs explores how security platforms address these challenges by providing:
-
-- asset discovery
-- device classification
-- risk context
-- exposure visibility
-- enforcement capabilities
+eyeStudy Labs helps break those relationships down into a more structured study experience.
 
 ---
 
-# What This Project Explores
+## What the App Does
 
-The study environment focuses on how organizations gain visibility into devices across their infrastructure.
+The app allows users to select:
 
-Key areas include:
+- **Scenario**
+- **Integration Type**
+- **Integration Vendor**
 
-### Device Discovery
+Based on those selections, the app generates structured output showing:
 
-How security platforms identify assets across environments such as:
-
-- corporate networks
-- remote endpoints
-- cloud environments
-- operational technology networks
-- IoT infrastructure
-
-Discovery often relies on sources such as:
-
-- DHCP logs
-- network telemetry
-- switch and router data
-- endpoint agents
-- API integrations
+- scenario summary
+- key risks in that environment
+- why visibility matters
+- example findings
+- recommended actions
+- integration overview
+- vendor-specific context
+- example telemetry / sample data
+- security architecture mapping
+- example workflow
+- business outcome mapping
 
 ---
 
-### Device Classification
+## Example Scenarios
 
-Once devices are discovered, platforms attempt to classify them based on characteristics such as:
+The app currently includes environments such as:
 
-- operating system
-- device type
-- manufacturer
-- network behavior
-- security posture
+- **Medical / Healthcare**
+- **Operational Technology / IoT**
+- **School / Education**
+- **Corporate Office**
 
-This classification allows organizations to distinguish between:
-
-- managed corporate devices
-- unmanaged personal devices
-- IoT and embedded devices
-- servers and infrastructure
-- operational technology assets
+These scenarios help show how the same integration type may matter differently depending on the environment.
 
 ---
 
-### Exposure Visibility
+## Integration Types Included
 
-Understanding devices is only part of the challenge.
+eyeStudy Labs currently includes examples for:
 
-Security teams also need to evaluate **how exposed those devices are**.
+- **EDR**
+- **SIEM**
+- **Firewall**
+- **NAC**
+- **Identity / IAM**
+- **Vulnerability Management**
+- **Threat Intelligence**
 
-Exposure can include factors such as:
-
-- missing security agents
-- outdated operating systems
-- unpatched vulnerabilities
-- risky network placement
-- unknown device ownership
-
-Platforms help security teams identify **which devices introduce the highest risk into the environment.**
+Each integration type includes vendor-specific examples and sample context.
 
 ---
 
-### Vulnerability Context
+## Example Vendors
 
-Device visibility platforms often enrich asset data with vulnerability information such as:
+Some of the vendors represented in the app include:
 
-- known CVEs
-- outdated software versions
-- missing patches
-- insecure configurations
-
-Combining asset visibility with vulnerability data allows teams to prioritize remediation efforts.
-
----
-
-# Architecture Thinking
-
-A key goal of this project is to understand how asset visibility fits within the broader security architecture.
-
-In many environments, device exposure insights are enriched through integrations with other systems.
-
-Examples include:
-
-### Endpoint Security Platforms
-
-Provide telemetry such as:
-
-- endpoint alerts
-- process activity
-- malware detections
-- device health status
+- CrowdStrike
+- Microsoft Defender
+- SentinelOne
+- Splunk
+- Microsoft Sentinel
+- QRadar
+- Palo Alto
+- Check Point
+- Cisco ISE
+- Aruba ClearPass
+- Active Directory
+- Microsoft Entra ID
+- Okta
+- Tenable
+- Qualys
+- Rapid7
+- Anomali
+- Recorded Future
+- VirusTotal
 
 ---
 
-### Identity Providers
+## Why This Project Matters
 
-Add user context including:
+Security tools rarely operate in isolation.
 
-- authentication activity
-- user identity
-- access patterns
-- privilege levels
+A major part of learning modern cybersecurity is understanding:
 
----
+- how tools complement each other
+- how telemetry is enriched by integrations
+- how context changes triage decisions
+- how technical findings connect to security and business outcomes
 
-### Network Infrastructure
-
-Network devices provide critical telemetry such as:
-
-- MAC address visibility
-- VLAN assignments
-- switch port mappings
-- network segmentation context
+This project was built to help study those relationships in a more visual and practical way.
 
 ---
 
-### Vulnerability Management Platforms
+## Business Value Focus
 
-These systems contribute information such as:
+In addition to technical context, eyeStudy Labs also maps findings to broader outcomes such as:
 
-- vulnerability scans
-- CVE scoring
-- patch status
-- exposure prioritization
-
----
-
-# Example Security Workflow
-
-A simplified exposure investigation may follow this flow:
-## Example Security Workflow
-
-1. **Device appears on network**
-
-2. **Network telemetry identifies a previously unknown device**
-
-3. **Device is classified based on behavior and attributes**
-
-4. **Security platform evaluates posture and vulnerability data**
-
-5. **Exposure risk is calculated**
-
-6. **Security teams investigate or apply enforcement controls**
+- improved asset visibility
+- faster investigations
+- better remediation prioritization
+- stronger segmentation decisions
+- improved governance and ownership workflows
+- reduced operational risk in sensitive environments
 
 ---
 
-## Why This Matters
+## Tech Stack
 
-Organizations cannot secure what they cannot see.
-
-Incomplete asset visibility leads to:
-
-- unmanaged devices  
-- shadow IT  
-- unpatched systems  
-- hidden attack surfaces  
-
-By improving device visibility and exposure awareness, security teams can better understand the **true risk posture of their environment**.
+- **Python**
+- **Gradio**
+- **Markdown-driven analysis output**
+- **Custom CSS styling**
 
 ---
 
-## Technology Used
+## Run Locally
 
-This study workspace was built using:
+Clone the repository and start the application.
 
-- Python  
-- Gradio  
-- structured security concept mapping  
+```bash
+git clone <your-repo-url>
+cd eyestudylab
 
----
+If you are using a virtual environment:
 
-## Intended Audience
+python -m venv venv
+source venv/bin/activate
 
-This project is useful for:
+If you are using a virtual environment:
 
-- cybersecurity learners  
-- technical account managers  
-- security architects  
-- customer success engineers  
-- professionals preparing for roles in asset visibility or exposure management platforms  
+python -m venv venv
+source venv/bin/activate
 
----
+## Project Goals
 
-## Focus Areas
-
-The project centers around understanding concepts such as:
+This project was built to support learning and interview preparation around topics such as:
 
 - asset visibility  
-- device discovery  
-- exposure management  
+- unmanaged device detection  
+- integration ecosystem mapping  
+- exposure analysis  
 - vulnerability context  
-- security architecture integrations  
+- network access control  
+- identity correlation  
+- security operations workflows  
+- architecture thinking  
+
+The goal is to better understand how different security tools contribute context that helps teams investigate and prioritize risk.
+
+---
+
+## Future Improvements
+
+Planned enhancements for the project include:
+
+- side-by-side analysis panels  
+- expanded integration types  
+- deeper vendor comparisons  
+- architecture diagrams for investigation workflows  
+- interactive investigation scenarios  
+- scoring or quiz modes for learning  
+- improved visual layouts for security architecture mapping  
+
+---
+
+## Ideal Use Cases
+
+eyeStudy Labs is designed to help with:
+
+- cybersecurity interview preparation  
+- studying integration ecosystems  
+- understanding asset visibility platforms  
+- learning exposure management concepts  
+- exploring how different security tools enrich context  
+
+It can also be used as a lightweight framework for exploring how different technologies interact within a security architecture.
