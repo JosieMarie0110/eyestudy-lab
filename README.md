@@ -2,9 +2,9 @@
 Actively under development
 # eyeStudy Labs
 
-eyeStudy Labs is a cybersecurity study workspace built to help explore **asset visibility, integration context, exposure analysis, and security architecture mapping** across different environments.
+eyeStudy Labs is a cybersecurity study workspace built to help explore asset visibility, integration context, exposure analysis, and security architecture mapping across different environments.
 
-Its designed for **scenario-based learning**, allowing users to study how different security integrations contribute context in environments such as healthcare, OT/IoT, education, and corporate office networks.
+Its designed for scenario-based learning, allowing users to study how different security integrations contribute context in environments such as healthcare, OT/IoT, education, and corporate office networks.
 
 ---
 
@@ -26,9 +26,9 @@ eyeStudy Labs helps break those relationships down into a more structured study 
 
 The app allows users to select:
 
-- **Scenario**
-- **Integration Type**
-- **Integration Vendor**
+- Scenario
+- Integration Type
+- Integration Vendor
 
 Based on those selections, the app generates structured output showing:
 
