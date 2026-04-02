@@ -116,10 +116,10 @@ In addition to technical context, eyeStudy Labs also maps findings to broader ou
 
 ## Tech Stack
 
-- **Python**
-- **Gradio**
-- **Markdown-driven analysis output**
-- **Custom CSS styling**
+- Python
+- Gradio
+-Markdown-driven analysis output
+- Custom CSS styling
 
 ---
 
