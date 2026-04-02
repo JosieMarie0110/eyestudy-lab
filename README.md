@@ -1,126 +1,99 @@
 ### Project Status
 Actively under development
-# eyeStudy Labs
 
-eyeStudy Labs is a cybersecurity study workspace built to help explore asset visibility, integration context, exposure analysis, and security architecture mapping across different environments.
+## eyeStudy Labs
 
-Its designed for scenario-based learning, allowing users to study how different security integrations contribute context in environments such as healthcare, OT/IoT, education, and corporate office networks.
+eyeStudy Labs is a cybersecurity study workspace focused on asset visibility, integrations, and exposure across different environments.
+
+It’s built for scenario-based learning—helping you understand how security tools provide context in environments like healthcare, OT/IoT, education, and corporate networks.
 
 ---
 
 ## Overview
 
-Modern security teams rely on multiple tools working together to understand:
+Modern security depends on multiple tools working together to answer:
 
-- what devices exist in the environment
-- which assets are unmanaged or risky
-- what context different integrations provide
-- how that context supports investigation, triage, and response
-- how technical findings map to operational and business outcomes
+- What assets exist?
+- Which are unmanaged or risky?
+- What context do integrations provide?
+- How does that support investigation and response?
+- How do findings translate to business impact?
 
-eyeStudy Labs helps break those relationships down into a more structured study experience.
+eyeStudy Labs breaks this down into a structured, hands-on learning experience.
 
 ---
 
 ## What the App Does
 
-The app allows users to select:
+Select:
+- Scenario  
+- Integration Type  
+- Vendor  
 
-- Scenario
-- Integration Type
-- Integration Vendor
-
-Based on those selections, the app generates structured output showing:
-
-- scenario summary
-- key risks in that environment
-- why visibility matters
-- example findings
-- recommended actions
-- integration overview
-- vendor-specific context
-- example telemetry / sample data
-- security architecture mapping
-- example workflow
-- business outcome mapping
+The app generates:
+- Scenario summary and key risks  
+- Visibility gaps and example findings  
+- Recommended actions  
+- Integration + vendor context  
+- Sample telemetry  
+- Security architecture mapping  
+- Example workflows  
+- Business impact  
 
 ---
 
 ## Example Scenarios
 
-The app currently includes environments such as:
+- Healthcare  
+- OT / IoT  
+- Education  
+- Corporate  
 
-- **Medical / Healthcare**
-- **Operational Technology / IoT**
-- **School / Education**
-- **Corporate Office**
-
-These scenarios help show how the same integration type may matter differently depending on the environment.
+Each shows how security priorities shift by environment.
 
 ---
 
-## Integration Types Included
+## Integration Types
 
-eyeStudy Labs currently includes examples for:
-
-- **EDR**
-- **SIEM**
-- **Firewall**
-- **NAC**
-- **Identity / IAM**
-- **Vulnerability Management**
-- **Threat Intelligence**
-
-Each integration type includes vendor-specific examples and sample context.
+- EDR  
+- SIEM  
+- Firewall  
+- NAC  
+- Identity / IAM  
+- Vulnerability Management  
+- Threat Intelligence  
 
 ---
 
 ## Example Vendors
 
-Some of the vendors represented in the app include:
-
-- CrowdStrike
-- Microsoft Defender
-- SentinelOne
-- Splunk
-- Microsoft Sentinel
-- QRadar
-- Palo Alto
-- Check Point
-- Cisco ISE
-- Aruba ClearPass
-- Active Directory
-- Microsoft Entra ID
-- Okta
-- Tenable
-- Qualys
-- Rapid7
-- Anomali
-- Recorded Future
-- VirusTotal
+CrowdStrike, Microsoft Defender, SentinelOne  
+Splunk, Sentinel, QRadar  
+Palo Alto, Check Point  
+Cisco ISE, Aruba ClearPass  
+Okta, Entra ID, Active Directory  
+Tenable, Qualys, Rapid7  
+Anomali, Recorded Future, VirusTotal  
 
 ---
 
-## Business Value Focus
+## Business Value
 
-In addition to technical context, eyeStudy Labs also maps findings to broader outcomes such as:
-
-- improved asset visibility
-- faster investigations
-- better remediation prioritization
-- stronger segmentation decisions
-- improved governance and ownership workflows
-- reduced operational risk in sensitive environments
+- Improved asset visibility  
+- Faster investigations  
+- Better prioritization  
+- Stronger segmentation  
+- Clear ownership and governance  
+- Reduced operational risk  
 
 ---
 
 ## Tech Stack
 
-- Python
-- Gradio
--Markdown-driven analysis output
-- Custom CSS styling
-
+- Python  
+- Gradio  
+- Markdown-based output  
+- Custom CSS  
 ---
 
 ## Run Locally
