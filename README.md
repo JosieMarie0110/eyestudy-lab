@@ -19,7 +19,7 @@ Modern security depends on multiple tools working together to answer:
 - How does that support investigation and response?
 - How do findings translate to business impact?
 
-eyeStudy Labs breaks this down into a structured, hands-on learning experience.
+
 
 ---
 
